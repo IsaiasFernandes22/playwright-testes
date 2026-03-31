@@ -1,0 +1,13 @@
+{
+  "name": "playwright-testes-faculdade",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Playwright - Trabalho de faculdade",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
